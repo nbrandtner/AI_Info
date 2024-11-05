@@ -1,0 +1,41 @@
+Just a quick research summary 
+
+1. Natural Language Processing (NLP) Frameworks
+
+spaCy
+What it is: spaCy is an NLP library that handles tasks like text preprocessing, tokenization, and named entity recognition (NER).
+When to use it: breaking down large texts or finding specific terms within the rule book.
+Why to use it: considered efficient and adaptable, with good documentation that can make it accessible for many use cases.
+
+NLTK (Natural Language Toolkit)
+What it is: NLTK is a toolkit offering a range of text processing tools, such as tokenization, stemming, and pattern matching.
+When to use it: basic processing tools for the text data.
+Why to use it: NLTK has a broad range of functions and a longstanding presence in NLP; however, it may be slower than other libraries, like spaCy.
+
+Transformers (Hugging Face)
+What it is: The Hugging Face Transformers library includes various pretrained models (such as BERT or GPT) designed for text-based tasks.
+When to use it: This library could be helpful if the bot needs to understand contextual information or if we plan to fine-tune a model to work closely with the rule book.
+Why to use it: Transformers offers access to a large set of models and integrates well with machine learning frameworks like PyTorch, making it potentially versatile for a range of NLP applications.
+
+---
+
+2. Retrieval-Augmented Generation (RAP) Framework
+
+Haystack
+What it is: Haystack is a framework that supports building search and question-answering systems.
+When to use it: suitable for projects where indexing and retrieving specific sections from a document, such as a rule book are needed.
+Why to use it: Haystack provides several options for document retrieval and allows for integration with language models.
+
+---
+
+3. Machine Learning Frameworks
+
+PyTorch or TensorFlow
+What it is: PyTorch and TensorFlow are widely used frameworks for deep learning.
+When to use it: Either framework could be helpful for working with pretrained models that need fine-tuning (or creating our own).
+Why to use it: Both frameworks are widely supported and well-documented, with strong integration capabilities.
+
+OpenAI API
+What it is: OpenAI’s API allows access to advanced language models, such as GPT, which can generate text-based responses.
+When to use it: a powerful language model for generating responses, but with control over its references to the rule book.
+Why to use it: The API provides access to advanced models that can understand context.
